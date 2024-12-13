@@ -1,35 +1,31 @@
-# pymongo-api
+> Дисклеймер: в каждой из папок присутствует файл README.md с инструкцией по развертыванию проекта
 
-## Как запустить
+# Итоговая схема
+[task_6.drawio](task_6.drawio)
 
-Запускаем mongodb и приложение
+## Задание 1. Планирование
+[task_1.drawio](task_1.drawio)
 
-```shell
-docker compose up -d
-```
+## Задание 2. Шардирование
+[mongo-sharding](mongo-sharding)
+[README.md](mongo-sharding/README.md)
+[task_2.drawio](mongo-sharding/task_2.drawio)
 
-Заполняем mongodb данными
+## Задание 3. Репликация
+[mongo-sharding-repl](mongo-sharding-repl)
+[README.md](mongo-sharding-repl/README.md)
+[task_3.drawio](mongo-sharding-repl/task_3.drawio)
 
-```shell
-./scripts/mongo-init.sh
-```
+## Задание 4. Кэширование
+[sharding-repl-cache](sharding-repl-cache)
+[README.md](sharding-repl-cache/README.md)
+[task_4.drawio](sharding-repl-cache/task_4.drawio)
 
-## Как проверить
+## Задание 5. Service Discovery и балансировка с API Gateway
+[task_5.drawio](task_5.drawio)
 
-### Если вы запускаете проект на локальной машине
+## Задание 6. CDN
+[task_6.drawio](task_6.drawio)
 
-Откройте в браузере http://localhost:8080
-
-### Если вы запускаете проект на предоставленной виртуальной машине
-
-Узнать белый ip виртуальной машины
-
-```shell
-curl --silent http://ifconfig.me
-```
-
-Откройте в браузере http://<ip виртуальной машины>:8080
-
-## Доступные эндпоинты
-
-Список доступных эндпоинтов, swagger http://<ip виртуальной машины>:8080/docs
+## Все задачи в одной схеме
+[all_tasks.drawio](all_tasks.drawio)
